@@ -30,6 +30,7 @@ if __name__=='__main__':
 	cmd_reboot = ['reboot']
 	cmd_cp_file = ['scp /opt/apogee/scripts/tele_init.tcl root@190.168.1.:/opt/apogee/scripts/tele_init.tcl']
 	cmd_rm_fits_files = ['rm -rf /data/*140317']
+	cmd_shutdown = ['init 0']
 	
 	cmd_to_run = "ls"
 	
