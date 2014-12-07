@@ -32,7 +32,7 @@ if __name__=='__main__':
 	cmd_rm_fits_files = ['rm -rf /data/*140317']
 	cmd_shutdown = ['init 0']
 	
-	cmd_to_run = "ls"
+	cmd_to_run = cmd_reboot
 	
 	
 	for i in range(11, 23):
